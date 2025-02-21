@@ -23,7 +23,7 @@ freq_values = np.linspace(110.0, 110.0, 49, dtype=np.float64) * 2.0 ** ((np.aran
 note_frequencies = dict(zip(freq_keys, freq_values))
 
 # Generate waveforms for each note
-sample_rate = 44000  # CD quality
+sample_rate = 44100  # CD quality
 duration = 30.0  # 30 seconds
 
 for note, freq in note_frequencies.items():
